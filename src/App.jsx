@@ -1,8 +1,12 @@
+import Home from "./components/home";
+import Features from "./components/features";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Mi proyecto Multimedia</h1>
-    </div>
+    <>
+      <Home />
+      <Features />
+    </>
   );
 }
 

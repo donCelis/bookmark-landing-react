@@ -1,0 +1,12 @@
+/* Features content */
+.features__content .nav-pills .nav-link {
+  color: var(--gray);
+  padding: 1.4em 2em;
+  border-radius: 0;
+  border-bottom: 2px solid var(--soft-gray);
+}
+.features__content .nav-pills .nav-link.active {
+  color: var(--dark);
+  background: transparent;
+  border-bottom: 2px solid var(--soft-red);
+}
