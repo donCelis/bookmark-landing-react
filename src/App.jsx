@@ -1,11 +1,8 @@
-import Home from "./components/home";
-import Features from "./components/features";
-
+//Componentes principales
 function App() {
   return (
     <>
-      <Home />
-      <Features />
+      <h1>Hola Mundo</h1>
     </>
   );
 }
