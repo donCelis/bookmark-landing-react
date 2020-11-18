@@ -6,7 +6,7 @@ import E404 from "../pages/e404";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="bookmark-landing-react">
       <Switch>
         <Route path="/" exact>
           <Home />
