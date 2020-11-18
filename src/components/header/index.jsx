@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./header.css";
 import logo from "../../assets/images/logo-bookmark.svg";
 
@@ -27,9 +29,9 @@ function Header() {
                     {item}
                   </a>
                 ) : (
-                  <a href="#" className="nav-link ease active">
+                  <Link to="/login" className="nav-link ease active">
                     {item}
-                  </a>
+                  </Link>
                 )}
               </li>
             ))}
